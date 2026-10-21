@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.board {
+    padding-top: 24px;
+}
+
+.keyboard {
+    padding-top: 24px;
+}
