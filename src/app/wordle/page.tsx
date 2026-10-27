@@ -1,16 +1,5 @@
-import { WordleBoard } from "@/components/WordleBoard";
-import styles from "./page.module.css";
-import { WordleKeyboard } from "@/components/WordleKeyboard";
+import WordleView from "@/views/wordle";
 
 export default function WordlePage() {
-    return (
-        <div className={styles.container}>
-            <div className={styles.board}>
-                <WordleBoard />
-            </div>
-            <div className={styles.keyboard}>
-                <WordleKeyboard />
-            </div>
-        </div>
-    );
+    return <WordleView />;
 }

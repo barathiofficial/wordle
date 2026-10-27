@@ -1,9 +1,5 @@
-import Link from "next/link";
+import { HomeView } from "@/views/Home";
 
 export default function HomePage() {
-    return (
-        <main>
-            <Link href="/wordle">Wordle</Link>
-        </main>
-    );
+    return <HomeView />;
 }
