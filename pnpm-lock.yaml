@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      jose:
+        specifier: ^6.2.13
+        version: 6.2.13
       next:
         specifier: 16.4.2
         version: 16.4.2(@types/node@20.19.43)(babel-plugin-react-compiler@1.0.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
@@ -363,6 +366,9 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
+  jose@6.2.13:
+    resolution: {integrity: sha512-7TIg10ZE1x82YediN+lcrPNvGMKge9yFHQD+Qho/b8y2adfugU3AsvvHfxV0fzyFllT6l9xCjf4RWY9g/Z9PJQ==}
+
   nanoid@3.3.20:
     resolution: {integrity: sha512-uKdg2G3GNCKQn9byYOpxbGqrT2fGO5KRt5J/8b3pok8rT6qxGWF6hxMyJiEYtAf+FVyYuD9hRaDqX5uPFYJ4ZQ==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -664,6 +670,8 @@ snapshots:
 
   detect-libc@2.1.2:
     optional: true
+
+  jose@6.2.13: {}
 
   nanoid@3.3.20: {}
 
