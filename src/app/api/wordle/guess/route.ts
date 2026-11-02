@@ -1,5 +1,5 @@
 import words from "@/data/words.json";
-import { clearState, loadState, saveState } from "@/lib/game";
+import { clearState, loadState, saveState } from "@/lib/server/game";
 
 export async function POST(req: Request) {
     const state = await loadState();
